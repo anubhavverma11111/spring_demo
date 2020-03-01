@@ -12,7 +12,8 @@ public class ServiceDemo1 {
     private ArrayList al;
     public ArrayList getIndex(){
         al=new ArrayList();
-       log.info("Inside Service");
+        log.info("Inside Service");
+        log.info("Inside Service1");
         al.add(new Customer("1","Anu","1222222"));
         return al;
     }
