@@ -14,6 +14,7 @@ public class ServiceDemo1 {
         al=new ArrayList();
         log.info("Inside Service");
         log.info("Inside Service1");
+        log.info("Inside Service2");
         al.add(new Customer("1","Anu","1222222"));
         return al;
     }
